@@ -1,0 +1,43 @@
+    Objectives
+        Describe, create and access turples and sets
+        Use built in methods to modify sets and access values in turples
+        Iterate over sets using loops and set comprehensions
+        Compare and contrast sets & tuples with list & dictionaries
+
+        What is a Tuple?
+            pronounced too-pul or tupple. You decide
+
+            An ordered collection or grouping of items
+
+            numbers = (1,2,3,4,5)
+
+            but its is immutable!
+
+            Can never be changeed!
+
+            x = (1,2,3)
+            3 in x # True 
+            x[0] = "change me!" #TypleError: 'tuple' onject does not support item assignment
+
+            Tuple are faster than list
+
+            It makes your code safer
+
+            Valid keys in dictionary
+
+            Some methods return then to you - like
+            .items() when working with dictionaries!
+
+            methods for tuple are only two
+
+                count
+                    Returns the number of times a value appears in a tuple:
+                        x = (1,2,3,3,3)
+                        x.count(3) # 3
+                        x.count(1) # 1
+                index
+                    Return the index at which a value is found in a tuple       
+                        t = (1,2,3,3,3)
+                        t.index(1) # 0
+                        t.index(5) #ValueError: tuple.index(x):x not in tuple
+                        t.index(3) # 2 - only the first matching index is returned

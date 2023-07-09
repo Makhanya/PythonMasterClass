@@ -1,0 +1,35 @@
+# Objectives
+
+    *Describe, create and access a dictionary data structure
+    *Use built in methods to modify and copy dictionaries
+    *Iterate over dictionaries using loops and dictionary comprehensions
+    *Compare and constrast dictionaries and list
+
+    Introduction
+
+    A dictionaries
+
+        A data structure that constists of key value pairs
+
+        We use the keys to describe our data and the values to represent the data
+
+        Our first dictionary
+
+            instructor = {
+                "name": "Colt",
+                "owns_dog": True,
+                "num_courses": 4,
+                "favorite_language": "Python",
+                "is_hilariious": False,
+                44: "my favorite number!"
+            }
+
+            keys and values separated by a colon
+            Our keys are almost always numbers or strings
+
+            Another Way
+
+            Another approach is to use the dict function.
+            You assign values to keys by passing in keys and values separated by an =
+
+            another_dictionary = dict(key ="value")

@@ -1,0 +1,6 @@
+objectives
+
+    get user input in python
+    learn about Truthiness
+    learn ho to use comparison operator to make a basic program
+     

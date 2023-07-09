@@ -1,0 +1,4 @@
+Objectives
+    *Explain common errors and how they occur in Python
+    *Use pdb to set breakpoints and step through code
+    *Use try and except blocks to handle errors

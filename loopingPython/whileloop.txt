@@ -1,0 +1,17 @@
+while loops
+
+we can also iterate using while loops, which has a different format:
+    while im_tired:
+        #seek caffeine
+    
+while loops continue to execute while a certain condition is truthy, and will end
+when they become falsy
+
+    user_response=None
+    while user_response != "please"
+        user_response = input("ah ah ah, you didnt say the magic word: ")
+
+while loops require more careful setup than for loops, since you have to specify the termination
+condition manually
+
+be careful! if the condition doesn't become false at same point, your loop will continue forever!
