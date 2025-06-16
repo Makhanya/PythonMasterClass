@@ -13,6 +13,7 @@ def add_user(first_name, last_name):
 
 
 add_user("Makhanya", "Mzili")
+##Test file for git commit\
 
 
 # with open("CSV/users.csv") as file:
